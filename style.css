@@ -1,5 +1,6 @@
 body{
     background: #f2f2f2;
+    padding-bottom: 0px;
 }
 
 #header{
@@ -92,6 +93,7 @@ body{
 
 .container{
     overflow: hidden;
+    padding-bottom: 0px;
 }
 .slider{
    display: flex; 
@@ -166,6 +168,9 @@ body{
 
 .ad-details{
     padding-top:5px;
+   
+}
+.ad-summary{
     padding-left:10px;
     padding-right: 10px;
 }
@@ -175,14 +180,145 @@ body{
 }
 
 .ad-location-home{
+
     font-size: 12px;
     color: #8f8f8f;
 }
+.bottom-nav{
+    background: #fff;
+    padding-top:15px;
+    font-size:21px;
+    margin-bottom: 0px;
+    position: fixed;
+    width:100%;
+    bottom: 0;
+    padding-left: 15px;
+    padding-right:15px;
+}
 
+.main-color{
+    color:#f48937;
+}
 
+.fa-plus-home{
+    height: 50px;
+    width:50px;
+    text-align: center;
+    background:#f48937;
+    color:#fff;
+    border-radius: 50%;
+    position:relative;
+    top:-15px;
+}
 
+.bottom-nav ul li{
+    
+  
+}
 
+.bottom-nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin: 0;
+}
 
+.car-list-home{
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right:auto;
+    padding-left:0px;
+    box-shadow: 1px 1px  #d6d6d6;
+}
 
+.car-list-home div p{
+    margin-top:0px !important;
+    margin-bottom: 1px;
+}
 
+.car-detail{
+    
+    padding-top:6px;
+    padding-left:8px;
 
+}
+
+.car-list-price{
+    color:#f48937;
+    font-size:12px;
+}
+.car-list-image{
+    padding-right: 0px;
+    border-radius: 8px;
+}
+
+.car-list-image img{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.search-icon-container{
+    
+    z-index: 2;
+    display: inline;
+    width: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    float:right;
+    position:relative;
+    top:-54px;
+    margin-right:16px;
+    padding-left:6px;
+    border-left: solid 1px #d6d6d6;
+    padding-bottom:5px;
+    height: 27px;
+
+  }
+
+  .search-icon-container .fa-search{
+      position:relative;
+      top:-4px;
+
+  }
+
+  .fa-cog{
+      color:grey;
+      border:red;
+  }
+
+  .get-direction{
+
+  }
+
+  .small-gray{
+    font-size: 12px;
+    color: #8f8f8f;
+  }
+  .ad-action {
+     border-top: solid 1px  #8f8f8f;
+     width: 100%;
+  }
+  .ad-action ul{
+      display: flex;
+      justify-content: space-between;
+      padding-left: 0px;
+      
+      color: #8f8f8f;
+      margin-bottom: 0px;
+  }
+  .ad-action ul li{
+    display: inline-block;
+    border-left: solid 1px  #8f8f8f;
+    padding: 10px;
+    padding-left:10px;
+  }
+
+  .ad-details{
+      border: solid 1px grey;
+  }
