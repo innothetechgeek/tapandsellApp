@@ -211,11 +211,6 @@ body{
     top:-15px;
 }
 
-.bottom-nav ul li{
-    
-  
-}
-
 .bottom-nav ul{
     display: flex;
     justify-content: space-between;
@@ -296,12 +291,18 @@ body{
 
   }
 
+  .ad-details{
+      background: #fff;
+      box-shadow: 0 4px 2px -2px #d2d2d2;
+  }
+
   .small-gray{
     font-size: 12px;
     color: #8f8f8f;
   }
   .ad-action {
-     border-top: solid 1px  #8f8f8f;
+    background: #fff;
+     border-top: solid 1px   #d6d6d6;
      width: 100%;
   }
   .ad-action ul{
@@ -314,11 +315,34 @@ body{
   }
   .ad-action ul li{
     display: inline-block;
-    border-left: solid 1px  #8f8f8f;
+    border-left: solid 1px   #d6d6d6;
     padding: 10px;
     padding-left:10px;
   }
 
-  .ad-details{
-      border: solid 1px grey;
+  .bottom-nav-ad-detail{
+    
+    background: #f48937;
+    font-size:21px;
+    margin-bottom: 0px;
+    position: fixed;
+    width:100%;
+    bottom: 0;
+    padding-left: 15px;
+    padding-right:15px;
+    display: flex;
+    
+  }
+  
+  .send-message{
+    
+      border-right: solid 1px #d6d6d6;
+  }
+
+  .bottom-nav-ad-detail div{
+    width: 50%;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size: 12px;
   }
